@@ -18,12 +18,12 @@ nuevaImagen = Image.new('L', (28, 28), (255))
 #La imagen es más larga que alta, la ponemos a 20 píxeles
 if largo > alto:
         #Se calcula la relación de ampliación entre la altura y el largo
-        relacionAltura = int(round((20.0 / largo * altura), 0))
+        relacionAltura = int(round((20.0 / largo * alto), 0))
         if (relacionAltura == 0):
             nAltura = 1
 
         #Redimensionamiento
-        img = image.resize((20, relacionAltura), Image.ANTIALIAS).filter(ImageFilter.SHARPEN)
+        img = imagen.resize((20, relacionAltura), Image.ANTIALIAS).filter(ImageFilter.SHARPEN)
         #Posición horizontal
         posicion_alto = int(round(((28 - relacionAltura) / 2), 0))
 
