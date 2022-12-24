@@ -35,16 +35,16 @@ redNeurona1Convolucion.add(Dense(10, activation='softmax'))
 #8 - Compilación del modelo
 import keras
 redNeurona1Convolucion.compile(loss=keras.losses.categorical_crossentropy,
-                                  optimizer=keras.optimizers.Adam(),
-                                   metrics=['accuracy'])
+optimizer=keras.optimizers.Adam(),
+metrics=['accuracy'])
 
 
 #9 - Aprendizaje
 historico_aprendizaje  = redNeurona1Convolucion.fit(X_aprendizaje, y_aprendizaje,
-           batch_size=256,
-           epochs=10,
-           verbose=1,
-           validation_data=(X_validacion, y_validacion))
+batch_size=256,
+epochs=10,
+verbose=1,
+validation_data=(X_validacion, y_validacion))
 
 
 #10 - Evaluación del modelo
