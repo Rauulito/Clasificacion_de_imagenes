@@ -1,18 +1,20 @@
 #pruebas
 #Importamos directorios
 import sys
-sys.path.insert(0,"/Users/rauln/Documents/Desarrolo orientado a objetos/Albaricoques-cerezas-clustering/codigo-cap09/aprendizaje_no_supervisado" )
-sys.path.insert(0, "/Users/rauln/Documents/Desarrolo orientado a objetos/Albaricoques-cerezas-clustering/codigo-cap09/generacion_de_datos")
-sys.path.insert(0, "/Users/rauln/Documents/Desarrolo orientado a objetos/Albaricoques-cerezas-clustering/codigo-cap09/Visualizacion_3d_curvas_gaussianas")
+sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/Clasificacion_de_imagenes/código_cap12/1_capa_convolucion")
+sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/Clasificacion_de_imagenes/código_cap12/1_capa_convolucion_aumentada")
+sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/Clasificacion_de_imagenes/código_cap12/4_capas_convolucion_aunmentada")
+sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/Clasificacion_de_imagenes/código_cap12/clasificacion")
 #Importamos funciones
-from aprendizaje_k_mean import aprendizaje
-from clustering2 import clustering2
-from datos import datos
-from cerezas import cerezas
-from albaricoques import albaricoques
-from clustering import clustering
-from dosd import  dim_2
-from tresd import dim_3
+from creacion_de_la_red_1 import creacion_de_la_red_1
+from preparacion_1 import PreparacionDatos_1
+from creacion_de_la_red_2 import creacion_de_la_red_2
+from Preparacion_2 import preparacion_2
+from creacion_de_la_red_3 import creacion_de_la_red_3
+from preparacion_3 import preparar_datos_3
+from carga_modelo import carga
+from carga_transformacion_imagen import transformacion
+
 
 
 def iniciar():
