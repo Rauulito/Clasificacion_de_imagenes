@@ -24,7 +24,7 @@ def iniciar():
     while True:
 
         print("========================")
-        print("  Bienvenido al Albaricoques-Cerezas-Clustering  ")
+        print("  Bienvenido a la clasificacion de imagenes ")
         print("========================")
         print("[1] Escoga la carpeta")
         print("[2] Cerrar clasificacion   ")
@@ -42,20 +42,18 @@ def iniciar():
                 print("[5] Volver al menu principal")
                 opcion2 = input("> ")
                 if opcion2 == '1':
-                    aprendizaje()
-                    clustering2()
-                    datos()
+                    creacion_de_la_red_1()
+                    PreparacionDatos_1()
                 elif opcion2 == '2':
-                    albaricoques()
-                    cerezas()
-                    clustering()
+                    creacion_de_la_red_2()
+                    preparacion_2()
                 elif opcion2 == '3':
-                    dim_2()
-                    dim_3()
+                    creacion_de_la_red_3()
+                    preparar_datos_3()
                 elif opcion2 == '4':
-                    dim_2()
-                    dim_3()
-                elif opcion2 == '4':
+                    carga()
+                    transformacion()
+                elif opcion2 == '5':
                     print("Volviendo...")
                     break
         if opcion == '2':
