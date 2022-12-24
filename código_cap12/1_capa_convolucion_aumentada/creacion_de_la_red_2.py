@@ -2,7 +2,7 @@
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten
 from keras.layers import Conv2D, MaxPooling2D
-from Preparacion import ANCHO_IMAGEN, LARGO_IMAGEN, X_aprendizaje, y_aprendizaje, X_validacion, y_validacion, X_test, y_test
+from Preparacion_2 import ANCHO_IMAGEN, LARGO_IMAGEN, X_aprendizaje, y_aprendizaje, X_validacion, y_validacion, X_test, y_test
 
 def creacion_de_la_red_2():
     #Se especifican las dimensiones de la imagen de entrada
