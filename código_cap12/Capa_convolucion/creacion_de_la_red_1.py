@@ -1,4 +1,5 @@
-from preparacion_1 import X_aprendizaje, y_aprendizaje, ANCHO_IMAGEN, LARGO_IMAGEN, X_test, y_test, X_validacion, y_validacion
+from Capa_convolucion.preparacion_1 import ANCHO_IMAGEN, LARGO_IMAGEN, X_aprendizaje, y_aprendizaje, X_test, y_test, X_validacion, y_validacion
+# from preparacion_1 import X_aprendizaje, y_aprendizaje, ANCHO_IMAGEN, LARGO_IMAGEN, X_test, y_test, X_validacion, y_validacion
 
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten
