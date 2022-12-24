@@ -25,7 +25,7 @@ def iniciar():
         print("  Bienvenido al Albaricoques-Cerezas-Clustering  ")
         print("========================")
         print("[1] Escoga la carpeta")
-        print("[2] Cerrar el Gestor    ")
+        print("[2] Cerrar clasificacion   ")
         print("========================")
 
         opcion = input("> ")
@@ -33,10 +33,11 @@ def iniciar():
         if opcion == '1':
             while True:
                 print("¿Qué opción quieres escoger?")
-                print("[1] aprendizaje_no_supervisado")
-                print("[2] genaricon_de_datos")
-                print("[3] Visualizacion_3D_curvas_gaussianas")
-                print("[4] Volver al menu principal")
+                print("[1] 1_capa_convolucion")
+                print("[2] 1_capa_convolucion_aumentada")
+                print("[3] 4_capas_convolucion_aumentada")
+                print("[4] clasificacion")
+                print("[5] Volver al menu principal")
                 opcion2 = input("> ")
                 if opcion2 == '1':
                     aprendizaje()
@@ -47,6 +48,9 @@ def iniciar():
                     cerezas()
                     clustering()
                 elif opcion2 == '3':
+                    dim_2()
+                    dim_3()
+                elif opcion2 == '4':
                     dim_2()
                     dim_3()
                 elif opcion2 == '4':
