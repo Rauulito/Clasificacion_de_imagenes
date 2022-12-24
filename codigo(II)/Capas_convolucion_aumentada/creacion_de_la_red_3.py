@@ -1,4 +1,4 @@
-# from preparacion_3 import ANCHO_IMAGEN, LARGO_IMAGEN, X_aprendizaje, X_test, X_validacion, y_aprendizaje, y_test, y_validacion, BatchNormalization
+from preparacion_3 import ANCHO_IMAGEN, LARGO_IMAGEN, X_aprendizaje, X_test, X_validacion, y_aprendizaje, y_test, y_validacion, BatchNormalization
 
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten

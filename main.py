@@ -7,13 +7,9 @@ sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/Clasifi
 sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/Clasificacion_de_imagenes/codigo(II)/clasificacion")
 #Importamos funciones
 from creacion_de_la_red_1 import creacion_de_la_red_1
-# from preparacion_1 import PreparacionDatos_1
 from creacion_de_la_red_2 import creacion_de_la_red_2
-from Preparacion_2 import preparacion_2
 from creacion_de_la_red_3 import creacion_de_la_red_3
-from preparacion_3 import preparar_datos_3
-# from carga_modelo import carga
-# from carga_transformacion_imagen import transformacion
+from carga_transformacion_imagen import transformacion
 
 
 
@@ -43,15 +39,11 @@ def iniciar():
                 opcion2 = input("> ")
                 if opcion2 == '1':
                     creacion_de_la_red_1()
-                    PreparacionDatos_1()
                 elif opcion2 == '2':
                     creacion_de_la_red_2()
-                    preparacion_2()
                 elif opcion2 == '3':
                     creacion_de_la_red_3()
-                    preparar_datos_3()
                 elif opcion2 == '4':
-                    carga()
                     transformacion()
                 elif opcion2 == '5':
                     print("Volviendo...")

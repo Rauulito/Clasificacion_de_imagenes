@@ -3,7 +3,7 @@ import numpy as np
 from keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 
-# def PreparacionDatos_1():
+"""Este archivo sirve para alimentar al archivo creacion_de_la_red"""
 #Definición de largo y ancho de la imagen
 LARGO_IMAGEN = 28
 ANCHO_IMAGEN = 28

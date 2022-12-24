@@ -2,9 +2,9 @@
 # CARGA DEL MODELO
 #----------------------------
 
-# def carga():
+"""Este archivo sirve para alimentar al archivo carga_transformacion_imagen"""
 #Carga de la descripción del modelo
-archivo_json = open('modelo/modelo_4convoluciones.json', 'r')
+archivo_json = open('codigo(II)/modelo/modelo_4convoluciones.json', 'r')
 modelo_json = archivo_json.read()
 archivo_json.close()
 
@@ -12,7 +12,7 @@ archivo_json.close()
 from keras.models import model_from_json
 modelo = model_from_json(modelo_json)
 # Cargar pesos en el modelo nuevo
-modelo.load_weights("modelo/modelo_4convoluciones.h5")
+modelo.load_weights("codigo(II)/modelo/modelo_4convoluciones.h5")
 
 
 #Definición de las categorías de clasificación
