@@ -1,19 +1,19 @@
 #pruebas
 #Importamos directorios
 import sys
-sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/Clasificacion_de_imagenes/código_cap12/1_capa_convolucion")
-sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/Clasificacion_de_imagenes/código_cap12/1_capa_convolucion_aumentada")
-sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/Clasificacion_de_imagenes/código_cap12/4_capas_convolucion_aunmentada")
-sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/Clasificacion_de_imagenes/código_cap12/clasificacion")
+sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/Clasificacion_de_imagenes/codigo(II)/Capa_convolucion")
+sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/Clasificacion_de_imagenes/codigo(II)/Capa_convolucion_aumentada")
+sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/Clasificacion_de_imagenes/codigo(II)/Capas_convolucion_aumentada")
+sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/Clasificacion_de_imagenes/codigo(II)/clasificacion")
 #Importamos funciones
 from creacion_de_la_red_1 import creacion_de_la_red_1
-from preparacion_1 import PreparacionDatos_1
+# from preparacion_1 import PreparacionDatos_1
 from creacion_de_la_red_2 import creacion_de_la_red_2
 from Preparacion_2 import preparacion_2
 from creacion_de_la_red_3 import creacion_de_la_red_3
 from preparacion_3 import preparar_datos_3
-from carga_modelo import carga
-from carga_transformacion_imagen import transformacion
+# from carga_modelo import carga
+# from carga_transformacion_imagen import transformacion
 
 
 
