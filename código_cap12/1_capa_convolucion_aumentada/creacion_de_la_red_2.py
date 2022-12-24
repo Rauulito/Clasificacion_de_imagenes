@@ -4,7 +4,7 @@ from keras.layers import Dense, Dropout, Flatten
 from keras.layers import Conv2D, MaxPooling2D
 from Preparacion import ANCHO_IMAGEN, LARGO_IMAGEN, X_aprendizaje, y_aprendizaje, X_validacion, y_validacion, X_test, y_test
 
-def creacion_capa_convolucion_aumentada():
+def creacion_de_la_red_2():
     #Se especifican las dimensiones de la imagen de entrada
     dimensionImagen = (ANCHO_IMAGEN, LARGO_IMAGEN, 1)
 

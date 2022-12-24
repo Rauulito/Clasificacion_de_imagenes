@@ -3,7 +3,7 @@ from preparacion import X_aprendizaje, y_aprendizaje, ANCHO_IMAGEN, LARGO_IMAGEN
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten
 from keras.layers import Conv2D, MaxPooling2D
-def creacion_convolución():
+def creacion_de_la_red_1():
     #Se especifican las dimensiones de la imagen de entrada
     dimensionImagen = (ANCHO_IMAGEN, LARGO_IMAGEN, 1)
 
